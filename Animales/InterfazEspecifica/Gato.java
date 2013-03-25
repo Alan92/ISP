@@ -1,0 +1,15 @@
+/** A pesar de no que hay metodos que no sirven para nada estamos obligados a implementarlos */
+public class Gato implements Animal, I_Maullar {
+    public void correr() {
+      System.out.println("Soy un gato y corro como un gato"); 
+    }
+    public void maullar() {
+      System.out.println("Soy un gato y me paso el dia maullando") ;
+    }
+    public void comer() {
+      System.out.println("Soy un gato y como ratones");
+    }
+    public void beber() {
+      System.out.println("Soy un gato y bebo como tal");
+    }
+}
